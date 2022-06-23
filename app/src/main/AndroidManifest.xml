@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_final">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_Final">
+
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Services.RandomNumberService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity
+            android:name=".Activity.LoginActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.RegisterActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.HomeActivity">
+        </activity>
+
+        <activity
+            android:name=".DisplayActivity">
+        </activity>
+
+        <receiver
+            android:name=".Activity.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Activity.HotelRegistrationActivity">
+        </activity>
+
+        <activity
+            android:name=".UI.Fragments.HotelActivity">
+        </activity>
+
+        <activity
+            android:name=".UI.Fragments.Fragment1Activity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ModalActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.BookActivity">
+        </activity>
+
+
+    </application>
+
+</manifest>

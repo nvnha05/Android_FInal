@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Android_Final</string>
+
+    <string name="activity_register_tv_email">E-mail</string>
+    <string name="activity_register_tv_password">Password</string>
+    <string name="activity_register_tv_phonenumber">Phone Number</string>
+    <string name="activity_register_tv_city">City</string>
+    <string name="activity_register_email_hint">Your E-mail</string>
+    <string name="activity_register_sign_up">Sign Up</string>
+
+    <string name="activity_login_tv_email">E-mail</string>
+    <string name="activity_login_tv_password">Password</string>
+    <string name="activity_login_email_hint">Your E-mail</string>
+    <string name="activity_login_password">Password</string>
+    <string name="activity_login_login_button">Login</string>
+    <string name="activity_login_forgot_password">Forgot password?</string>
+    <string name="activity_login_dont_have_account">Don\'t have an account?</string>
+    <string name="activity_login_sign_up"><u>Sign Up</u></string>
+
+    <string name="activity_home_title_1">AP</string>
+    <string name="activity_home_title_2">HoChiMinh City Best Hotels</string>
+
+    <string name="menu_navigation_title_home">Home</string>
+    <string name="menu_navigation_title_location">My Bookings</string>
+    <string name="menu_navigation_title_hotels">Hotels</string>
+    <string name="menu_navigation_title_account">Account</string>
+
+    <string name="activity_hotel_registration_hotelname">Hotel Name</string>
+    <string name="activity_hotel_registration_rooms">Rooms</string>
+    <string name="activity_hotel_registration_hotelname_hint">Hotel Name</string>
+    <string name="activity_hotel_registration_rate">Rate</string>
+    <string name="activity_hotel_registration_city">City</string>
+    <string name="activity_hotel_registration_save">Save</string>
+
+    <string name="activity_dialog_popup_question">Do you really want to exit?</string>
+    <string name="activity_dialog_popup_yes">Yes</string>
+    <string name="activity_dialog_popup_no">No</string>
+
+    <string name="activity_modal_hotelname_hint">Hotel Name</string>
+<!--
+    <string name="hotel_list_name">Name</string>
+    <string name="hotel_list_location">Loc</string>
+    -->
+    <string name="activity_book_confirm">Confirm booking</string>
+
+</resources>
